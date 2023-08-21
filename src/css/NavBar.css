@@ -1,0 +1,238 @@
+.bg{
+    background: linear-gradient(#FFFFFF03, #FFFFFF00);
+    backdrop-filter: blur(2.5px);
+}
+
+.navbar{
+    height: 70px;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.navbar-mobile{
+    height: 50px;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.navbar-text{
+    font-size: 25px;
+    line-height: 120%;
+    /* identical to box height, or 35px */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    margin-right: 2%;
+    transition: transform .2s;
+
+    font-family: 'FuturaDisplayNew';
+    text-align: center;
+    cursor: pointer;
+
+    -webkit-text-stroke: 1px black;
+    float: right;
+
+    margin-top: 1%;
+
+}
+
+.navbar-text:hover{
+    transform: scale(1.15);
+}
+
+.logo:hover{
+    transform: scale(1.05);
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+}
+
+.last{
+    margin-right: 5%;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+}
+
+.logo-mobile{
+    height: 33px;
+    width: 70px;
+    margin-top: 15px;
+    float: center;
+}
+
+.logo{
+    height: 50px;
+    width: 105px;
+    margin-top: -15px;
+    margin-left: 2%;
+    float: left;
+    transition: transform .2s;
+}
+
+.first:hover{
+    color: #ff4dab;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+}
+
+.second:hover{
+    color: #00baad;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+}
+
+.third:hover{
+    color: #fdde00;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+}
+
+.fourth:hover{
+    color: #ff66b7;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+}
+
+.last:hover{
+    color: #00d700;
+    transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+}
+
+.conheca-selected{
+    font-size: 25px;
+    line-height: 120%;
+    /* identical to box height, or 35px */
+
+    text-transform: uppercase;
+
+    color: #ff4dab;
+
+    margin-right: 2%;
+    transition: transform .2s;
+
+    font-family: 'FuturaDisplayNew';
+    text-align: center;
+    cursor: pointer;
+
+    -webkit-text-stroke: 1px black;
+    float: right;
+
+    margin-top: 1%;
+}
+
+.conheca-selected:hover{
+    transform: scale(1.15);
+}
+
+.patrocinador-selected{
+    font-size: 25px;
+    line-height: 120%;
+    /* identical to box height, or 35px */
+
+    text-transform: uppercase;
+
+    color: #00baad;
+
+    margin-right: 2%;
+    transition: transform .2s;
+
+    font-family: 'FuturaDisplayNew';
+    text-align: center;
+    cursor: pointer;
+
+    -webkit-text-stroke: 1px black;
+    float: right;
+
+    margin-top: 1%;
+}
+
+.patrocionador-selected:hover{
+    transform: scale(1.15);
+}
+
+.local-selected{
+    font-size: 25px;
+    line-height: 120%;
+    /* identical to box height, or 35px */
+
+    text-transform: uppercase;
+
+    color: #fdde00;
+
+    margin-right: 2%;
+    transition: transform .2s;
+
+    font-family: 'FuturaDisplayNew';
+    text-align: center;
+    cursor: pointer;
+
+    -webkit-text-stroke: 1px black;
+    float: right;
+
+    margin-top: 1%;
+}
+
+.local-selected:hover{
+    transform: scale(1.15);
+}
+
+.edicoes-selected{
+    font-size: 25px;
+    line-height: 120%;
+    /* identical to box height, or 35px */
+
+    text-transform: uppercase;
+
+    color: #ff66b7;
+
+    margin-right: 2%;
+    transition: transform .2s;
+
+    font-family: 'FuturaDisplayNew';
+    text-align: center;
+    cursor: pointer;
+
+    -webkit-text-stroke: 1px black;
+    float: right;
+
+    margin-top: 1%;
+}
+
+.edicoes-selected:hover{
+    transform: scale(1.15);
+}
+
+.filantropia-selected{
+    font-size: 25px;
+    line-height: 120%;
+    /* identical to box height, or 35px */
+
+    text-transform: uppercase;
+
+    color: #ff66b7;
+
+    transition: transform .2s;
+
+    font-family: 'FuturaDisplayNew';
+    text-align: center;
+    cursor: pointer;
+
+    -webkit-text-stroke: 1px black;
+    float: right;
+
+    margin-top: 1%;
+}
+
+.filantropia-selected:hover{
+    transform: scale(1.15);
+}

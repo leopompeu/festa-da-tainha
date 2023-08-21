@@ -1,0 +1,264 @@
+.container-filantropia{
+    margin-top: 7.5%;
+}
+
+.title-filantropia{
+    font-family: 'FuturaDisplayNew';
+    font-size: 68px;
+    line-height: 99.5%;
+    /* identical to box height, or 68px */
+
+    letter-spacing: 0.0em;
+    text-transform: uppercase;
+
+    text-align: center;
+
+    /* Pink/700 */
+
+    background-color: #FFFFFF;
+    color: transparent;
+    text-shadow: 2px 2px 0px #FF66B7;
+    -webkit-text-stroke: 2px black;
+    -webkit-background-clip: text;
+        -moz-background-clip: text;
+            background-clip: text;
+}
+
+.subtitle-filantropia{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+
+    margin-top: 50px;
+
+}
+
+.title-filantropia-mobile{
+    margin-top: 50px;
+
+    font-family: 'FuturaDisplayNew';
+    font-size: 42px;
+    line-height: 99.5%;
+    /* identical to box height, or 68px */
+
+    letter-spacing: 0.0em;
+    text-transform: uppercase;
+
+    text-align: center;
+
+    /* Pink/700 */
+
+    background-color: #FFFFFF;
+    color: transparent;
+    text-shadow: 2px 2px 0px #FF66B7;
+    -webkit-text-stroke: 2px black;
+    -webkit-background-clip: text;
+        -moz-background-clip: text;
+            background-clip: text;
+}
+
+.subtitle-filantropia-mobile{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+
+    margin-top: 15px;
+    margin-bottom: 30px;
+
+}
+
+.content-filantropia{
+    display: flex;
+    margin-top: 5%;
+}
+
+.title-content-filantropia{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+    /* identical to box height, or 112% */
+
+    letter-spacing: -0.015em;
+
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.title-content-filantropia-mobile{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    /* identical to box height, or 112% */
+
+    letter-spacing: -0.015em;
+
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.text-content-filantropia{
+    width: 480px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    margin-top: 25px;
+    text-align: left;
+
+    letter-spacing: -0.015em;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.text-content-filantropia-mobile{
+    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 150% */
+
+    margin-top: 15px;
+    text-align: center;
+
+    letter-spacing: -0.015em;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.img-filantropia{
+    margin-top: -5%;
+}
+
+.video-filantropia-mobile{
+    width: 75vw;
+    margin: 0 auto;
+    filter: drop-shadow(5px 5px 0px #000000);
+}
+
+.video-filantropia{
+    filter: drop-shadow(5px 5px 0px #000000);
+    transition: transform .2s;
+}
+
+.video-filantropia:hover{
+    transform: scale(1.015);
+}
+
+.container-carousel-filantropia-mobile .buttons button{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: transform .2s;
+    margin-top: 15px;
+}
+
+.filantropia-div-mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-carousel-filantropia-mobile .buttons button:first-child img{
+    transform: rotate(180deg);
+    
+}
+
+.container-carousel-filantropia-mobile .buttons button img{
+    height: 20px;
+}
+
+.container-carousel-filantropia-mobile .carousel-filantropia-mobile::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel-filantropia-mobile{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 80vw;
+}
+
+.carrossel-filantropia-item-mobile{
+    margin: 10px;
+    width: 80vw;
+}
+
+.container-carousel-filantropia .buttons button{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: transform .2s;
+    margin-top: 15px;
+}
+
+.container-carousel-filantropia .buttons button:first-child img{
+    transform: rotate(180deg);
+}
+
+.container-carousel-filantropia .buttons button img{
+    height: 50px;
+    height: 50px;
+}
+
+.container-carousel-filantropia .carousel-filantropia::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel-filantropia{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: 720px;
+}
+
+.carrossel-filantropia-item{
+    margin: 10px;
+    width: 720px;
+}
+
+.container-carousel-filantropia .buttons button:hover{
+    transform: scale(1.25);
+}
+
+.playbutton{
+    height: 80px;
+    width: 80px;
+    transition: transform .2s;
+}
+
+.playbutton:hover{
+    transform: scale(1.1);
+}
+
+.playbutton-mobile{
+    height: 50px;
+    width: 50px;
+}
